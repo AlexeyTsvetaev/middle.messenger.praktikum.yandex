@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <style lang="scss">
+        @import 'css/style.scss';
+    </style>
+    <style lang="scss">
+        @import 'css/main.scss';
+    </style>
+  <title>Авторизация</title>
+</head>
+<body>
+<div class="main-container">
+<h1>Авторизация</h1>
+        <div class="input-field">{{> textField placeholder='Логин' id='login'}}</div>
+    <div class="input-field">{{> passwordTextField placeholder='Пароль' id='password'}}</div>
+        <div class="btn"><a href="/profile.html"> {{> button label='Войти'}}</a></div>
+    <div class="auth-info">
+    <a href="/registration.html"> <p>Нет аккаунта ?</p></a>
+    </div>
+</div>
+</body>
+</html>

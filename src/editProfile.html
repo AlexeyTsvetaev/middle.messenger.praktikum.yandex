@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <style lang="scss">
+        @import 'css/style.scss';
+    </style>
+    <style lang="scss">
+        @import 'css/main.scss';
+    </style>
+    <link rel="stylesheet" href="profile.scss">
+    <title>Редактирование профиля</title>
+</head>
+<body>
+<div class="main-container">
+    <p id="display_name">Имя пользователя</p>
+    <div class="profile-logo"></div>
+    <a><p>Загрузить фото профиля</p></a>
+    <div class="input-field">{{> textField placeholder='Имя' id='first_name'}}</div>
+    <div class="input-field">{{> textField placeholder='Фамилия' id='second_name'}}</div>
+    <div class="input-field">{{> textField placeholder='Почта' id='email'}}</div>
+    <div class="input-field">{{> textField placeholder='Номер телефона' id='phone'}}</div>
+    <div class="input-field">{{> textField placeholder='Логин для входа' id='login'}}</div>
+    <div class="input-field">{{> passwordTextField placeholder='Текущий пароль' id='oldPassword'}}</div>
+    <div class="input-field">{{> passwordTextField placeholder='Новый пароль' id='newPassword'}}</div>
+    <div class="btn"><a href="/profile.html"> {{> button label='Отменить'}}</a></div>
+    <div class="btn"><a href="/profile.html"> {{> button label='Сохранить изменения'}}</a></div>
+</div>
+</body>
+</html>

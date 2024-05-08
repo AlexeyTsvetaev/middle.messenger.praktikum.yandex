@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <style lang="scss">
+        @import 'css/style.scss';
+    </style>
+    <style lang="scss">
+        @import 'css/main.scss';
+    </style>
+    <title>Регистрация</title>
+</head>
+<body>
+<div class="main-container">
+    <h1>Регистрация</h1>
+    <div class="input-field">{{> textField placeholder='Имя' id='first_name'}}</div>
+    <div class="input-field">{{> textField placeholder='Фамилия' id='second_name'}}</div>
+    <div class="input-field">{{> textField placeholder='Почта' id='email'}}</div>
+    <div class="input-field">{{> textField placeholder='Номер телефона' id='phone'}}</div>
+    <div class="input-field">{{> textField placeholder='Логин для входа' id='login'}}</div>
+    <div class="input-field">{{> passwordTextField placeholder='Пароль' id='password'}}</div>
+    <div class="btn"><a href="/profile.html"> {{> button label='Создать аккаунт'}}</a></div>
+</div>
+</body>
+</html>
