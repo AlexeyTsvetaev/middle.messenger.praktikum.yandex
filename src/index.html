@@ -16,12 +16,14 @@
 <body>
 <div class="main-container">
 <h1>Авторизация</h1>
+<form>
         <div class="input-field">{{> textField placeholder='Логин' id='login'}}</div>
     <div class="input-field">{{> passwordTextField placeholder='Пароль' id='password'}}</div>
         <div class="btn"><a href="/profile.html"> {{> button label='Войти'}}</a></div>
     <div class="auth-info">
     <a href="/registration.html"> <p>Нет аккаунта ?</p></a>
     </div>
+  </form>
 </div>
 </body>
 </html>
