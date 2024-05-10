@@ -14,14 +14,15 @@
   <title>Авторизация</title>
 </head>
 <body>
-<div class="main-container">
+<main class="main-container">
 <h1>Авторизация</h1>
-        <div class="input-field">{{> textField placeholder='Логин' id='login'}}</div>
-    <div class="input-field">{{> passwordTextField placeholder='Пароль' id='password'}}</div>
+        <div class="input-field">{{> textField placeholder='Логин' id='login' name='login'}}</div>
+    <div class="input-field">{{> passwordTextField placeholder='Пароль' id='password' name='password'}}</div>
         <div class="btn"><a href="/profile.html"> {{> button label='Войти'}}</a></div>
     <div class="auth-info">
     <a href="/registration.html"> <p>Нет аккаунта ?</p></a>
     </div>
-</div>
+</main>
+
 </body>
 </html>

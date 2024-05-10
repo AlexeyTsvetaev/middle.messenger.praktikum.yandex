@@ -14,15 +14,15 @@
     <title>Страница профиля</title>
 </head>
 <body>
-<div class="main-container">
+<main class="main-container">
     <div class="profile-logo"></div>
-    <div class="input-field">{{> textField placeholder='Имя' id='first_name'}}</div>
-    <div class="input-field">{{> textField placeholder='Фамилия' id='second_name'}}</div>
-    <div class="input-field">{{> textField placeholder='Почта' id='email'}}</div>
-    <div class="input-field">{{> textField placeholder='Номер телефона' id='phone'}}</div>
-    <div class="input-field">{{> textField placeholder='Логин для входа' id='login'}}</div>
+    <div class="input-field">{{> textField placeholder='Имя' id='first_name' name='first_name'}}</div>
+    <div class="input-field">{{> textField placeholder='Фамилия' id='second_name' name='second_name'}}</div>
+    <div class="input-field">{{> textField placeholder='Почта' id='email' name='email'}}</div>
+    <div class="input-field">{{> textField placeholder='Номер телефона' id='phone' name='phone'}}</div>
+    <div class="input-field">{{> textField placeholder='Логин для входа' id='login' name='login'}}</div>
     <div class="btn"><a href="/editProfile.html"> {{> button label='Изменить данные'}}</a></div>
     <div class="btn"><a href="/index.html"> {{> button label='Выйти из аккаунта'}}</a></div>
-</div>
+</main>
 </body>
 </html>
