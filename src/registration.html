@@ -16,6 +16,7 @@
 <body>
 <main class="main-container">
     <h1>Регистрация</h1>
+<form>
     <div class="input-field">{{> textField placeholder='Имя' id='first_name' name='first_name'}}</div>
     <div class="input-field">{{> textField placeholder='Фамилия' id='second_name' name='second_name'}}</div>
     <div class="input-field">{{> textField placeholder='Почта' id='email' name='email'}}</div>
@@ -23,6 +24,7 @@
     <div class="input-field">{{> textField placeholder='Логин для входа' id='login' name='login'}}</div>
     <div class="input-field">{{> passwordTextField placeholder='Пароль' id='password' name='password'}}</div>
     <div class="btn"><a href="/profile.html"> {{> button label='Создать аккаунт'}}</a></div>
+</form>
 </main>
 </body>
 </html>
